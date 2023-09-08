@@ -1,0 +1,149 @@
+.header{
+    width: 100%;
+    background-color: rgb(134, 185, 68);
+}
+.nav-link{
+    color: white !important;
+}
+.navbar-brand{
+    color: white !important;
+    font-weight: bold !important;
+    
+}
+
+.hero{
+    height: 600px;
+    background-image: url("bgs.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 250px;
+    text-align: center;
+    
+}
+
+.hero h1{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px green;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hero p{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px green;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hero a{
+    text-decoration: none;
+    background-color: rgb(134, 185, 68);
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.hero a:hover{
+    text-decoration: none;
+    background-color: salmon;
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.all-produk{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    
+}
+
+.produk{
+    background-color: #eee;
+    width: 230px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 3px 2px 5px gray;
+    border-radius: 5px;
+}
+
+.produk img {
+    height: 180px;
+    width: 230px;
+}
+
+.nama{
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 500px;
+    margin-top: 20px;
+}
+
+.harga{
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: 200px;
+    margin-top: -20px;
+
+}
+.produk a{
+    text-decoration: none;
+    background-color: rgb(134, 185, 68);
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    border-radius: 3px;
+    color: white;
+    margin-left: 20px;
+  
+}
+
+.produk a:hover{
+    color: white;
+    background-color: salmon;
+}
+
+
+.footer {
+    background-color: rgb(134, 185, 68);
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.footer p {
+    color: #fff;
+}
+
+@media screen and (max-width:768px) {
+    .hero{
+        padding: 30px;
+    }
+    
+    .produk {
+        width: 150px;
+        height: 300px;
+    }
+    .produk img {
+        width: 150px
+    }
+    .nama {
+        font-size: 12px;
+        font-weight: 600px;
+    }
+    .harga {
+        font-size: 10px;
+    }
+    .produk a {
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-bottom: 5px;
+        padding-right: 5px;
+    
+    
+}

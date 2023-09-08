@@ -1,0 +1,49 @@
+.header{
+    width: 100%;
+    background-color: rgb(134, 185, 68);
+}
+.nav-link{
+    color: white !important;
+}
+.navbar-brand{
+    color: white !important;
+    
+}
+
+.kontak-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.kontak-form h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.kontak-form input {
+    margin-top: 5px;
+}
+.kontak-form textarea {
+    margin-top: 5px;
+}
+
+.kontak-form button {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 60px;
+
+}
+
+.footer {
+    background-color: rgb(134, 185, 68);
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.footer p {
+    color: #fff;
+}
